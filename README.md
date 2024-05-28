@@ -2,7 +2,7 @@
 
 ## Overview
 
-Auxiliary transformers are crucial in railway systems, especially in Indian Railways, where they convert the 25-kilo volt AC supply to 230-240 volt AC supply for various applications. These transformers are often located in remote areas, making it challenging to monitor their performance and respond promptly to failures. The proposed project aims to develop an automated system based on GSM technology to continuously monitor auxiliary transformers, provide periodic updates, and generate immediate alerts in case of failures. This system will significantly reduce the lead time for addressing failures, thus minimizing service losses and enhancing operational efficiency.
+Auxiliary transformers are used extensively in railway systems. Indian Railways use them primarily to convert the 25-kilo volt AC supply into 230-240-volt AC supply as required for various applications. Due to their varied use, many of these auxiliary transformers are often positioned in remote locations. In case of failure of AT supply, no proper feedback system exists as of now. Due to this the lead time on failure attention increases rapidly depending on the location of the transformer. Sometimes this may result in signal failure leading to an increase in train traffic. To cut down on human effort and cost involved, as well as provide a system that continuously monitors these auxiliary transformers, an automated system based on GSM technology is suggested. This system periodically provides updates and generates immediate alerts in case of the occurrence of the failure of an auxiliary transformer, hence bringing a drastic reduction on lead time for failure attention where a failure escalates into costly service losses.
 
 ## Hardware Requirements
 
@@ -31,12 +31,12 @@ The GSM-based monitoring system for auxiliary transformers operates as follows:
 1. **Continuous Monitoring**: The system continuously monitors the output voltage of the auxiliary transformers using relays.
 2. **GSM Communication**:
     - **Periodic Updates**: The system sends periodic updates to a central monitoring system via the GSM module. These updates include the current status and output voltage of the transformers.
-    - **Immediate Alerts**: In case of a failure (e.g., output voltage drops below a certain threshold), the system generates an immediate alert and sends it to the designated maintenance personnel via SMS.
+    - **Immediate Alerts**: In case of a failure (e.g., the output voltage drops below a certain threshold), the system generates an immediate alert and sends it to the designated maintenance personnel via SMS.
 3. **Failure Response**: Maintenance personnel receive the alert and can promptly address the failure, reducing the lead time and preventing escalation into costly service disruptions.
 
 ## Benefits
 
-- **Reduced Lead Time**: Quick detection and reporting of transformer failures enable faster response and repair, reducing the downtime.
+- **Reduced Lead Time**: Quick detection and reporting of transformer failures enable faster response and repair, reducing downtime.
 - **Cost Efficiency**: Automating the monitoring process cuts down on human effort and associated costs.
 - **Enhanced Reliability**: Continuous monitoring ensures that transformers are always operating within their optimal range, preventing potential failures.
 - **Improved Safety**: Prompt failure detection prevents issues that could lead to signal failures and increased train traffic, ensuring a safer railway operation.
@@ -56,9 +56,6 @@ To include a preview of a paper published in a README file, you should provide a
 
 ### Authors:
 Afrin Dange, Dheeraj Kallakuri, Edwin Fernando, and Hanah Susan Zachariah; 
-
-### Abstract:
-Auxiliary transformers are used extensively in railway systems. Indian Railways use them primarily to convert the 25-kilo volt AC supply into 230-240-volt AC supply as required for various applications. Due to their varied use, many of these auxiliary transformers are often positioned in remote locations. In case of failure of AT supply, no proper feedback system exists as of now. Due to this the lead time on failure attention increases rapidly depending on the location of the transformer. Sometimes this may result in signal failure leading to an increase in train traffic. To cut down on human effort and cost involved, as well as provide a system that continuously monitors these auxiliary transformers, an automated system based on GSM technology is suggested. This system periodically provides updates and generates immediate alerts in case of the occurrence of the failure of an auxiliary transformer, hence bringing a drastic reduction on lead time for failure attention where a failure escalates into costly service losses.
 
 ### Link to Full Paper:
 [Read the full paper here](https://ieeexplore.ieee.org/document/9740841)
