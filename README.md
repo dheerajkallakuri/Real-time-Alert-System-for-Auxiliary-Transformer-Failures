@@ -41,14 +41,6 @@ The GSM-based monitoring system for auxiliary transformers operates as follows:
 - **Enhanced Reliability**: Continuous monitoring ensures that transformers are always operating within their optimal range, preventing potential failures.
 - **Improved Safety**: Prompt failure detection prevents issues that could lead to signal failures and increased train traffic, ensuring a safer railway operation.
 
-To include a preview of a paper published in a README file, you should provide a brief summary or abstract of the paper, as well as a link to the full paper if it's available online. Here's a step-by-step guide on how to do this effectively:
-
-1. **Title of the Paper**: Clearly state the title of the paper.
-2. **Authors**: List the authors of the paper.
-3. **Abstract or Summary**: Provide a concise summary or the abstract of the paper.
-4. **Link to Full Paper**: Include a link to where the full paper can be accessed (e.g., a journal's website, a preprint repository, or an institutional repository).
-5. **Citation**: Provide the full citation for the paper, including details like journal name, volume, issue, pages, and year.
-
 ## Paper Preview
 
 ### Title: 
